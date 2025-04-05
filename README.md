@@ -24,12 +24,11 @@ Please note: **Core documentation is not here.** It resides in **deeply nested, 
 ### 🗂 Directory Map
 
 ```bash
-📁 1-chaos
-📁 2-entropy
-📁 3-babel
-📁 4-grace
-📁 5-veil
-📁 6-kitabo
+📁 chaos
+📁 entropy
+📁 babel
+📁 grace
+📁 veil
 📄 poem.md
 📄 README.cff
 📄 token.cff
