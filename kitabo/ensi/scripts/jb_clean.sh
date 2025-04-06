@@ -1,18 +1,18 @@
 #!/bin/bash
 
-# Post-build script for cleaning up the _build/html directory
+# Define target directories
+dirs=(
+  pdfs
+  figures
+  media
+  testbin
+  nis
+  myhtml
+)
 
-mkdir -p _build/html/pdfs _build/html/figures _build/html/media _build/html/testbin  _build/html/nis # _build/html/testbin_dec2024 _build/html/data
-cp -r figures/* _build/html/figures/
-cp -r pdfs/* _build/html/pdfs/
-cp -r media/* _build/html/media/
-# cp -r act1/app/* _build/html/act1/app
-# cp -r data/* _build/html/data
-cp -r testbin/* _build/html/testbin
-# cp -r testbin_dec2024/* _build/html/testbin_dec2024
-cp -r nis/* _build/html/nis
-cp ukusoma.html _build/html/
-
-
-
+# Create directories under _build/html
+for d in "${dirs[@]}"; do
+  mkdir -p "_build/html/$d"
+  cp -r "$d/"* "_build/html/$d/" 2>/dev/null
+done
 
