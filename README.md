@@ -11,13 +11,13 @@ Please note: **Core documentation is not here.** It resides in **deeply nested, 
 
 ## 🌌 Overview
 
-| Layer | Function                            | Example Module          | Status       |
-|-------|-------------------------------------|--------------------------|--------------|
+| Layer | Function                            | Example Module           | Status        |
+|-------|-------------------------------------|--------------------------|---------------|
 | L0    | Entropic Indexing                   | `.gitignore`, `null.md`  | 🔒 Obfuscated |
-| L1    | Metadata Refraction & Signposting  | `README.cff`, `.well`    | 🧭 Partial   |
+| L1    | Metadata Refraction & Signposting   | `README.cff`, `.well`    | 🧭 Partial    |
 | L2    | Functional Illusions                | `index.html`, `favicon`  | ✨ Active     |
 | L3    | Symbolic Payload                    | `ukubona.png`, `🏝️.md`    | 🪡 Hidden     |
-| L4    | Recursive Entrypoints               | `6-kitabo/ensi/ukubona/` | 🔑 Intentional|
+| L4    | Recursive Entrypoints               | `6-kitabo/ensi/ukubona/` | 🔑 Intentional |
 
 ---
 
